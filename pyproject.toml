@@ -16,3 +16,5 @@ start = "server.app:app"
 
 [tool.setuptools]
 packages = ["." ]
+
+
