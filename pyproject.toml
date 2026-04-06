@@ -7,8 +7,12 @@ authors = [
 ]
 dependencies = [
     "flask",
-    "requests"
+    "requests",
+    "openenv-core>=0.2.0"
 ]
 
+[project.scripts]
+start = "server.app:app"
+
 [tool.setuptools]
-packages = ["."]
+packages = ["." ]
