@@ -1,0 +1,14 @@
+[project]
+name = "network-env"
+version = "0.1.0"
+description = "Network Environment RL API"
+authors = [
+    {name = "Riddhi"}
+]
+dependencies = [
+    "flask",
+    "requests"
+]
+
+[tool.setuptools]
+packages = ["."]
