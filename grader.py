@@ -1,2 +1,2 @@
-def grade(output: str, expected: str) -> float:
+def grade(output, expected):
     return 0.5
