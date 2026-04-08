@@ -1,27 +1,9 @@
-name: network-optimization-env
+tasks:
+  - id: task1
+    description: test task 1
 
-description: RL environment for optimizing network bandwidth, latency, and packet loss.
+  - id: task2
+    description: test task 2
 
-endpoints:
-  reset: /reset
-  step: /step
-  state: /state
-  grader: /grader
-  tasks: /tasks
-  baseline: /baseline
-
-actions:
-  - increase_bandwidth
-  - decrease_latency
-  - reduce_loss
-
-observation_space:
-  bandwidth: int
-  latency: int
-  packet_loss: float
-  steps: int
-
-reward: >
-  Reward increases with higher bandwidth, lower latency, and lower packet loss.
-
-done_condition: steps >= 20
+  - id: task3
+    description: test task 3
