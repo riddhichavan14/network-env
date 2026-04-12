@@ -1,23 +1,21 @@
-version: "1"
-
 tasks:
-  - name: task1
-    description: test task 1
+  - id: task1
+    description: test
     grader:
       type: python
       path: grader.py
-      entrypoint: grade
+      function: grade
 
-  - name: task2
-    description: test task 2
+  - id: task2
+    description: test
     grader:
       type: python
       path: grader.py
-      entrypoint: grade
+      function: grade
 
-  - name: task3
-    description: test task 3
+  - id: task3
+    description: test
     grader:
       type: python
       path: grader.py
-      entrypoint: grade
+      function: grade
