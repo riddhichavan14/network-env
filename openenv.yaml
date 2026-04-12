@@ -1,20 +1,17 @@
 tasks:
   - id: task1
-    description: test
     grader:
       type: python
       path: grader.py
       function: grade
 
   - id: task2
-    description: test
     grader:
       type: python
       path: grader.py
       function: grade
 
   - id: task3
-    description: test
     grader:
       type: python
       path: grader.py
