@@ -1,3 +1,5 @@
+version: "1"
+
 tasks:
   - id: task1
     description: test task 1
